@@ -41,7 +41,7 @@ const CONTENT_CONFIG = {
     }
   ],
   rightContent: [
-    "Customers and consumers today face a huge choice of products,services and brands.",
+    "Customers and consumers today face a huge choice of products,services and.",
     "Wir sind der bevorzugte Ansprechpartner fur jedes Marketingvorhaben in der region.",
     "A large number of new providers occupy niches and trend themes."
   ]
@@ -122,7 +122,6 @@ const About: React.FC = () => {
         1
       );
     }
-
 
     // Animate left text points
     const leftPoints = leftTextPointsRef.current.filter(Boolean);
